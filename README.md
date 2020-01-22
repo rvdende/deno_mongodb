@@ -5,7 +5,7 @@ Not much works right now.
 ## Build the library:
 
 ```
-cargo build --lib`
+cargo build --lib
 deno --allow-plugin tests/test.ts
 ```
 

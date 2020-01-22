@@ -1,0 +1,15 @@
+[package]
+name = "deno_mongodb"
+version = "0.0.1"
+authors = ["Rouan van der Ende <rouan.vanderende@iotnxt.com>"]
+edition = "2018"
+publish = false
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+futures = "0.3.1"
+mongodb = "0.9.0"
+bson = "0.14.0"
+deno_core = "0.30.1"
